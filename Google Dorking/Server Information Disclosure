@@ -3,4 +3,10 @@ intitle:"WAMPSERVER Homepage"
 intitle:"index of" "awstats"
 intitle:"index of" "config.yml"
 intitle:"index of" /payments.txt
-
+intitle:"index of" /paypal
+intitle:"index of" "aws/credentials"
+intitle:"index of" /backup private
+"index of" *.db
+intitle:"index of" *.admin.password
+"@pwcache" "/etc/"
+intitle:index of ..................etc passwd
