@@ -2,3 +2,4 @@ intitle:admin intitle:login
 intitle:"Login to Redash"
 intitle:"web server login" "please enter your login"
 intitle:"Synnefo Admin"
+intitle:"User Authentication : IR*"
