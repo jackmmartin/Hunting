@@ -1,3 +1,5 @@
 intitle:"WAMPSERVER Homepage"
 "Welcome to phpMyAdmin" "Create new database"
-intitle: index of "awstats"
+intitle:"index of" "awstats"
+intitle:"index of" "config.yml"
+
