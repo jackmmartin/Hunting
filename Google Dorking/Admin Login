@@ -5,3 +5,4 @@ intitle:"Synnefo Admin"
 intitle:"User Authentication : IR*"
 intitle:"ST Web Client"
 intitle:"Login. MicroStrategy"
+inurl:/RDWeb/Pages/en-US/ filetype:aspx ~login
