@@ -1,2 +1,3 @@
 intitle:"ContaCam" "Snapshot Image"
 inurl:viewer/live/index.html
+intitle:"Network Camera" inurl:main.cgi
