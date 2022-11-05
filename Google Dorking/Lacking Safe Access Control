@@ -15,3 +15,4 @@ intitle:"atvise - next generation"
 intitle:"index of" "/.git/config"
 intitle:"index of" ".pdf" invoice
 intitle:"ZAP Scanning Report" + "Alert Detail"
+intitle:"index of" "db.py"
