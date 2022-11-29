@@ -10,3 +10,4 @@ inurl:/RDWeb/Pages/en-US/
 site:*/admin-portal/
 intitle:"Gophish - Login"
 inurl:"/admin/AdminLogin.jsp
+intitle:"Codian MCU - login" "Copyright TANDBERG"
